@@ -16,7 +16,8 @@
 
 ## Description
 
-Application uses Google Books API to search for a book and search
+Application uses Google Books API to search for a book and save it to a Mongo Database
+
 ![Website Gif](./client/public/websiteGIF.gif)
 
 ## Deployed Link
