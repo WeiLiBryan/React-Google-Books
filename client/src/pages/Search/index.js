@@ -17,16 +17,6 @@ function Search (props) {
         searchTerm: "",
     })
 
-//  useEffect(function(search) {
-//         API.googleSearch(search).then(function (results) {
-//             console.log("results ========>", results.data.items)
-//             setBooks({
-//                 ...books,
-//                 bookList: results.data.items,
-//             });
-//         });
-//     }, []);
-
     const handleSave = function handleSave(bookData) {
         API.saveBook(bookData);
             console.log("bookData ======>", bookData)
